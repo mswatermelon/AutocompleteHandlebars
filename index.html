@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+</head>
+<body>
+<input type="text" id="enterSomething">
+<div id="container"></div>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/x-handlebars-template" id="main-template">
+    {{#each list}}
+    <p class="{{this}}">{{this}}</p>
+    {{/each}}
+</script>
+</body>
+</html>
